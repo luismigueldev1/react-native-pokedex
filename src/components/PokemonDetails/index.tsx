@@ -83,7 +83,7 @@ export default function PokemonDetails({pokemon}: Props) {
       <View style={styles.container}>
         <Text style={styles.title}>Stats:</Text>
         <View>
-          {pokemon.stats.map((stat, index) => (
+          {pokemon.stats.map(stat => (
             <View key={stat.stat.name + Math.random()} style={styles.typesRow}>
               <Text style={[styles.regularText]}>{stat.stat.name}</Text>
               <Text style={[styles.boldText]}>{stat.base_stat}</Text>
