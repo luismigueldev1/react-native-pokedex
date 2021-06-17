@@ -1,10 +1,11 @@
 import 'react-native-gesture-handler';
 import React from 'react';
-import {StyleSheet, SafeAreaView} from 'react-native';
-import {StackNavigator} from './src/navigators/StackNavigator';
-
+import {NavigationContainer} from '@react-navigation/native';
+import {TabsNavigator} from './src/navigators/TabsNavigator';
 export default function App() {
-  return <StackNavigator />;
+  return (
+    <NavigationContainer>
+      <TabsNavigator />
+    </NavigationContainer>
+  );
 }
-
-const styles = StyleSheet.create({});

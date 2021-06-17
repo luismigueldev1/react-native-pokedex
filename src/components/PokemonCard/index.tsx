@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
     height: 120,
     width: windowWith * 0.43,
     marginBottom: 10,
-    padding: 15,
+    padding: 10,
     borderRadius: 8,
     shadowColor: '#000',
     shadowOffset: {
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
   },
   name: {
     color: 'white',
-    fontSize: 20,
+    fontSize: 16,
     fontWeight: 'bold',
   },
 

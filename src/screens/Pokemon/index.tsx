@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import {StackScreenProps} from '@react-navigation/stack';
 import {FadeInImage} from '../../components/FadeInImage';
-import {RootStackParamList} from '../../navigators/StackNavigator';
+import {RootStackParamList} from '../../navigators/StackPokemon';
 import Icon from 'react-native-vector-icons/Ionicons';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {usePokemon} from '../../hooks/usePokemon';
